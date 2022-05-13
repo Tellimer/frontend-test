@@ -1,0 +1,32 @@
+{
+  "name": "@tellimer/frontend-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "node-fetch": "^3.2.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tellimer/frontend-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tellimer/frontend-test/issues"
+  },
+  "homepage": "https://github.com/Tellimer/frontend-test#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "@types/react": "^18.0.9",
+    "typescript": "^4.6.4"
+  }
+}
