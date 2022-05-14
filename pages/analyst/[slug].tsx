@@ -11,16 +11,8 @@ const Article = () => {
         <title>Analyst page</title>
       </Head>
       <h1 className="text-3xl font-bold underline mb-4">
-        Analyst name
+        Analyst page
       </h1>
-      <p>
-        Analyst job title
-      </p>
-
-      <h2>Articles</h2>
-      <ul>
-        <li></li>
-      </ul>
     </section>
   )
 }

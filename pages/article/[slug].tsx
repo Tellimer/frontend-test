@@ -32,9 +32,6 @@ const Article = () => {
       <p>
         Author: {article.leadAnalyst?.firstName} {article.leadAnalyst?.lastName}
       </p>
-      <p>
-        Published: {article.publishedAt}
-      </p>
       <div className="mt-4" dangerouslySetInnerHTML={{__html: article.content}} />
     </section>
   )

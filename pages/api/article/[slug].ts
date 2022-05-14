@@ -2,21 +2,21 @@ import articles from '../../../data/articles.js'
 
 export default function handler(req, res) {
     if (req.method !== 'GET') {
-        res.status(404);
+        res.status(404).end();
         return;
     }
 
     try {
       const {slug} = req.query
       if (!slug) {
-          res.status(400)
+          res.status(400).end()
           return
       }
 
       const article = articles.find((article) => article.slug === slug)
 
       if (!article) {
-        res.status(404)
+        res.status(404).end()
         return
     }
 

@@ -5,13 +5,13 @@ const Layout = ({children}) => {
 
   return (
     <>
-      <nav className="w-full h-12 border-b fixed flex top-0 left-0 bg-white shadow-md">
+      <header className="w-full h-12 border-b fixed flex top-0 left-0 bg-white shadow-md">
           <Link href="/">
             <a>
               <img src="/logo.jpeg" alt="" height="48" width="48"/>
             </a>
           </Link>
-      </nav>
+      </header>
       <main className="p-4 max-w-xl mx-auto mt-14">
         {children}
       </main>

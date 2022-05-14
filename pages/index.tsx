@@ -26,9 +26,8 @@ const Home = () => {
         {(latest || []).map((entry) => {
           return (
             <li className="mb-4 w-full flex" key={entry.slug}>
-              <img className="contain mr-4" src={entry.image} width="48" alt=""/>
               <Link href={`/article/${entry.slug}`}>
-                <a className="hover:underline">
+                <a>
                   {entry.title}
                 </a>
               </Link>
