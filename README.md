@@ -24,12 +24,12 @@ If a user is not logged in it shouldn't be able to read our articles, instead we
 
 The at last the logged in users that lickc on their avatar should be logged off.
 
-- [] Add a login option to the header
-- [] Add a login screen with a login form that creates a user session
-- [] Show the user avatar instead of the login option when they are logged in
-- [] Clicking the avatar should log off the user
-- [] Hide the article content from non logged in users
-- [] Show the summary field to non logged in users
+- [ ] Add a login option to the header
+- [ ] Add a login screen with a login form that creates a user session
+- [ ] Show the user avatar instead of the login option when they are logged in
+- [ ] Clicking the avatar should log off the user
+- [ ] Hide the article content from non logged in users
+- [ ] Show the summary field to non logged in users
 
 
 ### Homescreen
@@ -40,25 +40,25 @@ We want to have the ability to filter those users by analyst and channel by addi
 
 Also we want to add some images on that list since some articles have those defined plus the avatar from the analyst.
 
-- [] Add a filter option on homescreen to filter by analyst or channel
-- [] Add images when available to the article list on homescreen
-- [] Add the analyst with avatar to the list
+- [ ] Add a filter option on homescreen to filter by analyst or channel
+- [ ] Add images when available to the article list on homescreen
+- [ ] Add the analyst with avatar to the list
 
 ### Analytics
 
 Since this is a news site we want to do some analytics so we want to track any click on absolutely any link of the site and every time we load a page.
 
-- [] Make sure that **any** click of a link is tracked by calling `window.analytics.link`
-- [] Make sure that every time we load a page is tracked by calling `window.analytics.page`
+- [ ] Make sure that **any** click of a link is tracked by calling `window.analytics.link`
+- [ ] Make sure that every time we load a page is tracked by calling `window.analytics.page`
 
 ### Article
 
 Right now articles are missing some nice details like the image, the analyst avatar and the published darte, we want to show them.
 
-- [] Add image to article detail
-- [] Add analyst avatar
-- [] Add published date
-- [] Link the analyst to its page
+- [ ] Add image to article detail
+- [ ] Add analyst avatar
+- [ ] Add published date
+- [ ] Link the analyst to its page
 
 ### Analyst
 
@@ -66,6 +66,6 @@ We currently have an empty analyst page that doesn't do much. We want to wire it
 
 Is important to note that we do not currently have an endpoint for this so one will need to be added and the information should be extracted from the article list.
 
-- [] Add all the information we have form analyst to its page
-- [] Add links to it from the article page
-- [] Add links to it from the homepage article list
+- [ ] Add all the information we have form analyst to its page
+- [ ] Add links to it from the article page
+- [ ] Add links to it from the homepage article list
