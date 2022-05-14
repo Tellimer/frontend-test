@@ -1,4 +1,4 @@
-export default [
+const users = [
     {
         "user": "scarn",
         "password": "1234",
@@ -6,21 +6,23 @@ export default [
         "picture": "https://eu.ui-avatars.com/api/?name=Michael+Scott"
     },
     {
-        "user": "winteriscoming",
-        "password": "khaleesi",
-        "name": "John Snow",
-        "picture": "https://eu.ui-avatars.com/api/?name=John+Snow"
+        "user": "kevin",
+        "password": "password",
+        "name": "Kevin Malone",
+        "picture": "https://eu.ui-avatars.com/api/?name=Kevin+Malone"
     },
     {
-        "user": "tim",
-        "password": "money",
-        "name": "Tim Apple",
-        "picture": "https://eu.ui-avatars.com/api/?name=Tim+Apple"
+        "user": "dragon",
+        "password": "000001",
+        "name": "Dwight Schrute",
+        "picture": "https://eu.ui-avatars.com/api/?name=Dwight+Schrute"
     },
     {
-        "user": "elon",
-        "password": "twittercheap",
-        "name": "Elon Musk",
-        "picture": "https://eu.ui-avatars.com/api/?name=Elon+Musk"
+        "user": "toby",
+        "password": "sasha",
+        "name": "Toby Flenderson",
+        "picture": "https://eu.ui-avatars.com/api/?name=Toby+Flenderson"
     }
 ]
+
+export default users

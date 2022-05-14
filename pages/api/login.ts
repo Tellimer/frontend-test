@@ -23,5 +23,4 @@ export default function handler(req, res) {
         console.error(e)
         res.status(400)
     }
-
 }
