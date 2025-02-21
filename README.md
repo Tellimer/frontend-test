@@ -1,6 +1,6 @@
 # Frontend test
 
-This test contains a simple SvelteKit site with some hardcoded data for both users and articles. It is a bare-bones installation of SvelteKit with Tailwind 4 installed.
+This test contains a simple SvelteKit site with some hardcoded data for you to work with. It is a bare-bones installation of SvelteKit with Tailwind 4 installed.
 
 Ideally, we would avoid using too many third party packages. Using some low level library may be fine but start adding prebuild Svelte components from `npm` feels like it defeats the purpose of the test.
 
