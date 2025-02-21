@@ -13,7 +13,6 @@
           href="/">Home</a
         >
       </div>
-      <div class="ml-auto">login?</div>
     </div>
   </header>
 
